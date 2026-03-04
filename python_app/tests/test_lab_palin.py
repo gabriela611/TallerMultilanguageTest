@@ -10,16 +10,16 @@ def test_ejemplo_siembra():
     assert True
 
 def test_radar_palindromo():
-    assert es_palindromo('radar')==True    
+    assert es_palindromo('radar')
 
 def test_Radar_palindromo():
-    assert es_palindromo('Radar')==True  
+    assert es_palindromo('Radar')
 
 def test_anita_palindromo():
-    assert es_palindromo('anita lava la tina')==True      
+    assert es_palindromo('anita lava la tina')
 
 def test_python_palindromo():
-    assert es_palindromo('python')==False 
+    assert not es_palindromo('python')
 
 def test_empty_palindromo():
-    assert es_palindromo(' ')==True  
+    assert es_palindromo(' ')
